@@ -1,0 +1,124 @@
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .dashboard {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .welcome-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .welcome-section h1 {
+    font-size: 26px;
+    color: #004d40;
+  }
+
+  .quick-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .quick-actions button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #00695c;
+    color: white;
+    transition: background-color 0.3s;
+  }
+
+  .quick-actions button:hover {
+    background-color: #004d40;
+  }
+
+  .lesson-management, .google-classroom-integration, .student-performance, .notifications, .resources-support, .settings-preferences {
+    margin-bottom: 20px;
+  }
+
+  .lessons-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .lesson-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 20px);
+  }
+
+  .lesson-card h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .lesson-card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #00695c;
+    color: white;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .lesson-card button:hover {
+    background-color: #004d40;
+  }
+
+  .performance-metrics {
+    display: flex;
+    gap: 20px;
+  }
+
+  .metric {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(50% - 10px);
+    text-align: center;
+  }
+
+  .metric h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .notifications ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .notifications ul li {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }

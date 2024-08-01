@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - MoneyBot for Schools</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="welcome-section">
+            <img src="profile-pic-url" alt="Profile Picture" class="profile-pic">
+            <h1>Welcome, [Teacher's Name]!</h1>
+        </div>
+        <div class="quick-actions">
+            <button id="create-lesson">Create New Lesson</button>
+            <button id="share-google-classroom">Share to Google Classroom</button>
+            <button id="view-lessons">View All Lessons</button>
+        </div>
+        <div class="lesson-management">
+            <h2>Your Lessons</h2>
+            <input type="text" id="search-lessons" placeholder="Search lessons...">
+            <div class="lessons-grid">
+                <!-- Lesson Cards will be dynamically generated here -->
+            </div>
+        </div>
+        <div class="google-classroom-integration">
+            <button id="sync-courses">Sync Courses</button>
+            <button id="manage-classroom">Manage Classroom</button>
+        </div>
+        <div class="student-performance">
+            <h2>Student Performance</h2>
+            <div class="performance-metrics">
+                <div class="metric">
+                    <h3>Average Quiz Score</h3>
+                    <p>85%</p>
+                </div>
+                <div class="metric">
+                    <h3>Lesson Completion Rate</h3>
+                    <p>90%</p>
+                </div>
+            </div>
+        </div>
+        <div class="notifications">
+            <h2>Notifications</h2>
+            <ul>
+                <li>New student submission in Math 101</li>
+                <li>System update scheduled for tomorrow</li>
+            </ul>
+        </div>
+        <div class="resources-support">
+            <button id="help-center">Help Center</button>
+            <button id="contact-support">Contact Support</button>
+        </div>
+        <div class="settings-preferences">
+            <button id="profile-settings">Profile Settings</button>
+            <button id="dashboard-preferences">Dashboard Preferences</button>
+        </div>
+    </div>
+</body>
+</html>
